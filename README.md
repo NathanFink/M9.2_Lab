@@ -1,24 +1,14 @@
 # CS408 - Lab9.2
-
+## Author Nathan Fink
 ## Overview
 
-TODO: Write a project description
+This project updates a pre-existing ballbounce file that displays multiple balls bouncing across the screen. We change thsi to a game with an evil cirlce that when touching a ball deletes it and decrements a ball count. We can move the ball with wasd and it stops before going off the screen. We use alot of the predefined functions and just change certain aspects of them for the evilCircle function. We also create a shape class to hold positons of elements.
 
 ## Sources and Credits
+Most of this assignment wasn't too difficult, and the clear instructions made it pretty esy to follow what needed to be added or changed to each function. The only portion I got stuck on was the ball count since I couldn't figure out how to like link it the paragrpah element.
+These 2 sources gave me some direction on how to do the last part of the ball count
+https://www.shecodes.io/athena/53226-how-to-get-an-element-by-its-id-in-javascript
 
-TODO: You must credit the sources and authors of any code, libraries, or other
-assets you use in your project. If you leave this section blank, your project
-will be considered in violation of the Academic Honesty policy unless you truly
-created everything from scratch with no outside help. If you need to use a
-source that you cannot credit (e.g. a classmate's work), you must get explicit
-permission from your instructor.
+https://www.w3schools.com/jsref/dom_obj_paragraph.asp
 
-A simple bulleted list below is sufficient. For example:
 
-- Bootstrap: https://getbootstrap.com/
-- jQuery: https://jquery.com/
-- Background image: https://unsplash.com/photos/...
-- Sound effects: https://freesound.org/people/...
-- Icons: https://fontawesome.com/
-- Fonts: https://fonts.google.com/
-- etc.
